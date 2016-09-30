@@ -12,7 +12,7 @@ def findFloor(directions):
             delta = 1
         else:
             delta = -1
-        floor + delta
+        floor = floor + delta
 
     return floor
 
