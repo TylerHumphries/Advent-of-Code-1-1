@@ -5,17 +5,18 @@
 #The apartment building is very tall, and the basement is very deep; he will never find the top or bottom floors.
 #to what floor do the instructions take santa?
 
-def map(directions):
-    steps = int(len(directions))
+def findFloor(directions):
     floor = 0
-    for i in range(0, steps):
-        if directions[i] == '(':
-            floor = floor + 1
-        elif directions [i] == ')':
-            floor = floor - 1
+    for char in directions:
+        if char = '(':
+            delta = 1
+        else:
+            delta = -1
+        floor + delta
 
     return floor
 
 print('please input the puzzle')
 puzzle = input()
-print(map(puzzle))
+print(findFloor(puzzle))
+
