@@ -1,2 +1,2 @@
-# Advent-of-Code-1-1
-advent of code day 1 problem 1
+# Advent Of Code Day 1
+Solving the problems of Advent of Code day 1
