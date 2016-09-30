@@ -8,7 +8,7 @@
 def findFloor(directions):
     floor = 0
     for char in directions:
-        if char = '(':
+        if char == '(':
             delta = 1
         else:
             delta = -1
